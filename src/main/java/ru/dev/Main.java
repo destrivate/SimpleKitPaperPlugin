@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
     public static Main instance;
-    public static FileConfiguration config;
+    public FileConfiguration config;
 
     public void onEnable() {
         instance = this;
